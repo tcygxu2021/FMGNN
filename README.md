@@ -1,6 +1,6 @@
 # FMGNN
 This code is an implementation of our paper "FMGNN: A method to predict compound-protein interaction with pharmacophore features and physicochemical properti
-es of amino acids" in Pytorch with RDKit. We provide three CPI datasets: human, C.elegans and Stitch, in which the ratio of positive and negative samples is 
+es of amino acids" in Pytorch with RDKit. We provide three CPI datasets: human and C.elegans, in which the ratio of positive and negative samples is 
 1:1.
 
 Dependencies:
