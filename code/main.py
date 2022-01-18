@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
     """Load preprocessed data."""
     dir_input = ('../dataset/' + DATASET + '/input/'
-                 'radius' + radius + '_ngram' + ngram)
+                 'radius' + radius + '_ngram' + ngram + '/')
     compounds = load_tensor(dir_input + 'compounds', torch.LongTensor)
     adjacencies = load_tensor(dir_input + 'adjacencies', torch.FloatTensor)
     proteins = load_tensor(dir_input + 'proteins', torch.LongTensor)
